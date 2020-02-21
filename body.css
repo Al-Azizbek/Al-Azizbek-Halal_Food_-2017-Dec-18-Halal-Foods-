@@ -1,0 +1,136 @@
+html{
+    background-image: url(jean.png);
+    position: absolute;
+
+}
+body{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.press{
+    position: relative;
+    left: 300px;
+    top: 150px;
+}
+.border{
+    border: 1px solid black;
+}
+
+.press table tr td p{
+    padding-left: 25px;
+    font-family: Corpid, sans-serif;
+    font-size: 17px;
+}
+.press table tr td h2{
+    padding-left: 25px;
+    font-family: Corpid, sans-serif;
+    
+}
+.press table td{
+    border-bottom: 5px solid grey;
+
+}
+
+
+.clear:before,
+.clear:after{
+    content: "";
+    display: table;
+}
+.clear:after{
+    clear: both;
+}
+.clear{
+    zoom:1;
+}
+
+header{
+    background-color: #d61f26;
+    width: 100%;
+    position: absolute;
+    left: 305px;
+
+
+
+}
+.pagebutton{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.pagebutton ul li{
+    float: left;
+    list-style: none;
+
+
+}
+.pagebutton ul li a{
+    text-decoration: none;
+    margin-right: 7px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border:1px solid #d61f26;
+    font-family: Corpid,sans-serif;
+    padding: 31px 40px;
+    display: block;
+    text-transform: uppercase;
+    
+}
+.pagebutton ul li a:hover{
+    border-top:3px solid white;
+    background-color:#f26363;
+
+
+}
+
+
+
+
+
+
+
+.logo{
+    border:1px solid white;
+    border-radius: 50%;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    left: 850px;
+}
+
+
+
+
+.pagebutton ul{
+    margin-left: 40px;
+    padding:    0;
+}
+
+
+
+
+
+footer table{
+    position: absolute;
+    top: 1085px;
+    left: 450px;
+
+}
+.footerback{
+    background-color: #343b46;
+    position: absolute;
+    top: 1100px;
+    left: -290px;
+    width: 1890px;
+    height: 150px;
+}
+.Copyright{
+    position: absolute;
+    top: 1240px;
+    left: 450px;
+    color: black;
+    font-weight: bold;
+
+}

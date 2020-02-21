@@ -1,0 +1,583 @@
+html{
+	background-image: url(jean.png);
+	position: absolute;
+
+}
+
+header{
+	background-color: #d61f26;
+	
+
+
+
+}
+.signup{
+	position: absolute;
+	top: 29px;
+	left: 1500px;
+	opacity: 1;
+}
+.pagebutton{
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+.pagebutton ul li{
+	float: left;
+	list-style: none;
+
+
+}
+.pagebutton ul li a{
+	text-decoration: none;
+	margin-right: 7px;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	border:1px solid #d61f26;
+	font-family: Corpid,sans-serif;
+	padding: 31px 40px;
+	display: block;
+	text-transform: uppercase;
+	
+}
+.pagebutton ul li a:hover{
+	border-top:4.3px solid white;
+	background-color:#f26363;
+
+
+}
+
+
+
+
+
+
+
+.logo{
+	border:1px solid white;
+	border-radius: 50%;
+	padding: 0;
+}
+
+
+
+article{
+	display: block;	
+	box-sizing: border-box;	
+	width: 65%;
+	float: 	left;	
+}
+
+
+.pagebutton ul{
+	margin-left: 40px;
+	padding: 	0;
+}
+.imagebox{
+	
+	overflow: hidden;
+}
+#imgbox{
+	position: relative;
+	left: 0;
+	width: 300%;
+	animation: slidemove 30s infinite;
+
+}
+#imgbox img{
+	width: 33.33%;
+	float: left;
+	
+}
+@-webkit-keyframes slidemove{
+
+	0%{
+		left: 0;
+	}
+	25%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	75%{
+		left: -100%;
+	}
+	100%{
+		left: 0;
+	}
+}
+.bg{
+	height: 100%;
+	width: 100%;
+	background-size: 100% 100%;
+}
+
+.restaurants{
+	float: right;
+	width: 33%;
+	position: relative;
+
+
+}
+.restaurants h3 {
+	border-bottom:  3px solid grey;
+	color:#9e1111; 
+
+}
+.restaurants  p{
+	padding-bottom: 15px;
+	font-size: 20px;
+}
+
+
+.restaurants p .lazzat{
+	padding-left: 195px;
+}
+.restaurants p .lazzat a{
+	text-decoration: none;
+}
+
+.restaurants p .samarkand1{
+	padding-left: 85px;
+}
+.restaurants p .samarkand1 a{
+	text-decoration: none;
+}
+.restaurants p .alibaba{
+	padding-left: 253px;
+}
+.restaurants p .alibaba a{
+	text-decoration: none;
+}
+.restaurants p .turkey{
+	padding-left: 89px;
+}
+.restaurants p .turkey a{
+	text-decoration: none;
+}
+.restaurants p .ganga{
+	padding-left: 495px;
+}
+.restaurants p .ganga a{
+	text-decoration: none;
+}
+.restaurants p .samarkand a{
+	text-decoration: none;
+}
+
+.restaurants p span a{
+	border:1px solid grey;
+	padding: 2px;
+	background-color: #d2d8e0;
+	color: #333;
+	
+	border-radius: 5px;
+}
+
+.info{
+	
+	padding-left: 40px;
+	padding-right: 20px;
+	float: left; 
+	width: 40%;
+    position: absolute;
+	font-size: 120%;
+	
+}
+.infopic{
+	position: absolute;
+	width: 50%;
+	left:500px;
+	background-color: white;
+	
+	
+
+}
+
+.container{
+	height: 500px;
+	position: relative;
+    top:20px;
+	left: 350px;
+	width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+	
+	box-shadow: 5px 10px #333:
+
+	padding: 0;
+	
+	font-size: 15px;
+
+	
+
+
+}
+.container p{
+	color:#45233e;
+	font-family: Corpid, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+}
+.readmore a{
+	text-decoration: none;
+	text-transform: uppercase;
+	border:1px solid yellow;
+	background-color:rgb(255, 199, 19);
+	padding: 10px;
+	border-radius: 8px;
+	font-family: Corpid, sans-serif;
+	color: #343b46;
+
+
+}
+
+h2{
+	padding-left: 610px;
+}
+
+.info1{
+	
+	padding-left: 540px;
+	padding-right: 20px;
+	float: right; 
+	width: 40%;
+    position: absolute;
+	font-size: 120%;
+	
+}
+.infopic1{
+	position: absolute;
+	width: 50%;
+	left:0px;
+	background-color: white;
+	
+	
+
+}
+
+.container1{
+	height: 500px;
+	position: relative;
+    top:50px;
+	left: 350px;
+	width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+	
+	box-shadow: 5px 10px #333:
+
+	
+	
+	font-size: 15px;
+
+	
+
+
+}
+.container1 p{
+	color:#45233e;
+	font-family: Corpid, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+}
+.readmore1 a{
+	text-decoration: none;
+	text-transform: uppercase;
+	border:1px solid yellow;
+	background-color:rgb(255, 199, 19);
+	padding: 10px;
+	border-radius: 8px;
+	font-family: Corpid, sans-serif;
+	color: #343b46;
+
+
+}
+.container2{
+	margin: 0 auto;
+	max-width: 1000px;
+	position: relative;
+	top: 80px;
+	left: 349px;
+}
+.infopic2{
+	position: absolute;
+	width: 100%;
+	left:0px;
+	background-color: white;
+	
+	
+
+}
+.working{
+	
+	padding-left: 0px;
+	padding-right: 20px;
+	float: right; 
+	width: 100%;
+    position: absolute;
+	font-size: 120%;
+	padding-top: 388px;
+
+	
+}
+.working p{
+	background-color: rgba(0 , 0, 0 , .7);
+	color: white;
+	font-family: Corpid, sans-serif;
+	font-size: 15px;
+	padding:15px 15px 15px 15px;
+}
+
+.workingus{
+	padding-left: 80px;
+	padding-right: 20px;
+	float: right; 
+	width: 26%;
+    position: absolute;
+	font-size: 120%;
+	padding-top: 35px;
+
+}
+
+.workingus h1{
+	background-color: rgba(0 , 0, 0 , .7);
+	color: white;
+	font-family: Corpid, sans-serif;
+	font-size: 28px;
+	padding:15px 15px 15px 15px;
+	border:1px solid black;
+	border-radius: 3px;
+
+}
+
+footer{
+	
+	background-color: #343b46;
+	position: relative;
+	height: 350px;
+	top: 2340px;
+}
+footer .head1{
+	position: absolute;
+	right: 1220px;
+	font-family: Corpid,sans-serif;
+	font-size: 20px;
+	color: white;
+	text-transform: uppercase;
+}
+footer .head2{
+	position: absolute;
+	right: 900px;
+	font-family: Corpid,sans-serif;
+	font-size: 20px;
+	color: white;
+	text-transform: uppercase;
+}
+footer .head3{
+	position: absolute;
+	right: 500px;
+	font-family: Corpid,sans-serif;
+	font-size: 20px;
+	color: white;
+	text-transform: uppercase;
+}
+footer .iconaddress{
+	position: absolute;
+	right: 1390px;
+	top: 70px;
+
+}
+footer .address{
+	position: absolute;
+	right: 1200px;
+	top: 54px;
+
+
+}
+footer .address a{
+	text-decoration: none;
+	color: white;
+}
+footer .address a:hover{
+
+	color:rgb(255, 199, 19);
+}
+
+
+footer .iconcall{
+	position: absolute;
+	right: 1390px;
+	top: 139px;
+	opacity: .8;
+
+}
+footer .calling{
+	position: absolute;
+	right: 1250px;
+	top: 133px;
+
+
+}
+footer .calling a{
+	text-decoration: none;
+	color: white;
+}
+footer .calling a:hover{
+
+	color:rgb(255, 199, 19);
+}
+
+
+footer .iconmessage{
+	position: absolute;
+	right: 1390px;
+	top: 220px;
+	opacity: .8;
+
+}
+footer .message{
+	position: absolute;
+	right: 1170px;
+	top: 215px;
+
+
+}
+footer .message a{
+	text-decoration: none;
+	color: white;
+}
+footer .message a:hover{
+
+	color:rgb(255, 199, 19);
+}
+.twitter{
+	position: absolute;
+	top:90px;
+	right: 1000px;
+}
+.facebook{
+	position: absolute;
+	top:90px;
+	right: 935px;
+}
+
+.instagram{
+	position: absolute;
+	top:90px;
+	right: 870px;
+}
+
+.messageborder{
+	position: absolute;
+	top: 70px;
+	opacity: .7;
+}
+.bird{
+	position: absolute;
+	top: 175px;
+	right: 660px;
+}
+.footerread{
+	position: absolute;
+	top: 95px;
+	right: 540px;
+}
+.footerread a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+footer .footerread a:hover{
+
+	color:rgb(255, 199, 19);
+}
+.copyright{
+	position: absolute;
+	top: 290px;
+	right: 490px;
+	color: white;
+	font-family: Corpid,sans-serif;
+	font-size: 16px;
+}
+.copyright a {
+	text-decoration: none;
+}
+	
+
+
+
+
+.map{
+	position: absolute;
+	top: 1800px;
+	left: 1480px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gif{
+	position: absolute;
+	top:  900px;
+	left: 1480px;
+
+}
+
+.salegif{
+	position: absolute;
+	top:  1200px;
+	left: 1480px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clear:before,
+.clear:after{
+	content: "";
+	display: table;
+}
+.clear:after{
+	clear: both;
+}
+.clear{
+	zoom:1;
+}

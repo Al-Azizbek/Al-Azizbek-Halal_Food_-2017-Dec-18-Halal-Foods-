@@ -1,0 +1,319 @@
+html{
+	background-image: url(jean.png);
+	position: absolute;
+
+
+}
+body{
+	margin: 0 auto;
+	max-width: 1200px;
+	padding-right: 50px;
+	padding-left: 200px;
+	position: relative;
+
+}
+.info1{
+	
+	padding-left: 540px;
+	padding-right: 20px;
+	float: right; 
+	width: 40%;
+    position: absolute;
+	font-size: 120%;
+	
+}
+.infopic1{
+	position: absolute;
+	width: 50%;
+	left:0px;
+	background-color: white;
+	
+	
+
+}
+
+.container1{
+	height: 500px;
+	position: relative;
+    top:440px;
+	left: 150px;
+	width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+	
+	box-shadow: 5px 10px #333:
+
+	
+	
+	font-size: 15px;
+
+	
+
+
+}
+.container1 p{
+	color:#45233e;
+	font-family: Corpid, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+}
+.readmore1 a{
+	text-decoration: none;
+	text-transform: uppercase;
+	border:1px solid yellow;
+	background-color:rgb(255, 199, 19);
+	padding: 10px;
+	border-radius: 8px;
+	font-family: Corpid, sans-serif;
+	color: #343b46;
+
+
+}
+.tablesection{
+	position: relative;
+	top: 450px;
+	left: 150px;
+	background-color:#bfc0c1;
+	width: 1000px;
+}
+.tablesection tr td h1{
+	color: black;
+	font-family: Corpid, sans-serif;
+	padding-left: 25px;
+	font-size: 25px;
+}
+.tablesection tr td p{
+
+	color: black;
+	font-family: Corpid, sans-serif;
+	padding-left: 25px;
+	font-size: 15px;
+}
+.tablesection tr td h1{
+	padding-left: 25px;
+	text-align: center;
+	padding-right: 45px;
+	background-color: #a4a4a5;
+	margin-left: 20px;
+}
+.tablesection img{
+	padding-left: 95px;
+}
+.message{
+	height: 500px;
+	position: relative;
+    top:440px;
+	left: 150px;
+	width: 1000px;
+	margin: 0 auto;
+	background-color:rgb(69, 35, 62);
+	
+	box-shadow: 5px 10px #333:
+
+	
+	
+	font-size: 15px;
+           
+}
+.text{
+	width: 350px;
+	height: 30px;
+	border-radius: 5px;
+	margin-left: 30px;
+
+}
+.email{
+	width: 350px;
+	height: 30px;
+	border-radius: 5px;
+	margin-left: 30px;
+
+
+}
+.select{
+	width: 350px;
+	height: 30px;
+	border-radius: 5px;
+	margin-left: 30px;
+
+
+}
+.message form p{
+	color:white;
+	padding-left: 30px;
+	font-weight: bold;
+
+            font-family: Corpid, sans-serif;
+}
+.message h1{
+	color: white;
+	padding-left: 30px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+textarea{
+	position:absolute;
+	left:480px;
+	top: 185px;
+}
+.mes{
+	color:white;
+	font-weight: bold;
+	position:absolute;
+	left:480px;
+	top: 130px;
+}
+.send{
+	position: absolute;
+	height: 35px;
+	width: 90px;
+	border-radius: 5px;
+	background-color: rgb(255, 199, 19);
+	border:1px solid rgb(255, 199, 19);
+	font-weight: bold;
+	color:black;
+	font-family: Corpid, sans-serif;
+	font-size: 15px;
+	left: 800px;
+	top: 430px;
+
+}
+iframe{
+	position: absolute;
+	top: 130px;
+	left: 220px;
+}
+header{
+	background-color: #d61f26;
+	width: 100%;
+	position: absolute;
+	left: 220px;
+	
+
+
+
+}
+.pagebutton{
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+.pagebutton ul li{
+	float: left;
+	list-style: none;
+
+
+}
+.pagebutton ul li a{
+	text-decoration: none;
+	margin-right: 7px;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	border:1px solid #d61f26;
+	font-family: Corpid,sans-serif;
+	padding: 31px 40px;
+	display: block;
+	text-transform: uppercase;
+	
+}
+.pagebutton ul li a:hover{
+	border-top:4.3px solid white;
+	background-color:#f26363;
+
+
+}
+
+
+
+
+
+
+
+.logo{
+	border:1px solid white;
+	border-radius: 50%;
+	padding: 0;
+	position: absolute;
+	top: 10px;
+	left: 850px;
+}
+
+
+
+article{
+	display: block;	
+	box-sizing: border-box;	
+	width: 65%;
+	float: 	left;	
+}
+
+
+.pagebutton ul{
+	margin-left: 40px;
+	padding: 	0;
+}
+
+
+
+
+.gif1{
+	position: absolute;
+	top: 500px;
+	left: 150px;
+}
+
+
+.gif2{
+	position: absolute;
+	top: 1150px;
+	left: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clear:before,
+.clear:after{
+	content: "";
+	display: table;
+}
+.clear:after{
+	clear: both;
+}
+.clear{
+	zoom:1;
+}
+
+footer table{
+	position: absolute;
+	top: 1790px;
+	left: 750px;
+
+}
+.footerback{
+	background-color: #343b46;
+	position: absolute;
+	top: 1800px;
+	left: 10px;
+	width: 1890px;
+	height: 150px;
+}
+.Copyright{
+	position: absolute;
+	top: 1940px;
+	left: 750px;
+
+}
