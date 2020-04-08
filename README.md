@@ -1,3 +1,1 @@
-# halal_food-info_uzbek_halal_foods-
-# halal_food_info-in-South-Korea-
-# halal_food_restaurant-information-
+Halal foods website which I created in 2017 by using just HTML5 and CSS.
